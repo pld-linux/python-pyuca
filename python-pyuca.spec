@@ -10,13 +10,13 @@
 %define		pypi_name	pyuca
 Summary:	A Python implementation of the Unicode Collation Algorithm
 Name:		python-%{module}
-Version:	1.1
-Release:	2
+Version:	1.1.2
+Release:	1
 License:	MIT
 Group:		Libraries/Python
 Source0:	https://files.pythonhosted.org/packages/source/p/%{module}/%{module}-%{version}.tar.gz
-# Source0-md5:	23139a4c470c56e74da1210baf0da6ba
-URL:		http://github.com/jtauber/pyuca
+# Source0-md5:	083a414b2a81a9cd6e7f3d83443820f4
+URL:		https://github.com/jtauber/pyuca
 BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.714
 %if %{with python2}
