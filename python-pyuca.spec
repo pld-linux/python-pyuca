@@ -11,7 +11,7 @@
 Summary:	A Python implementation of the Unicode Collation Algorithm
 Name:		python-%{module}
 Version:	1.1.2
-Release:	4
+Release:	5
 License:	MIT
 Group:		Libraries/Python
 Source0:	https://files.pythonhosted.org/packages/source/p/%{module}/%{module}-%{version}.tar.gz
